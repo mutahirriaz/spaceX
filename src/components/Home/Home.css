@@ -1,0 +1,171 @@
+.first_div{
+    background-image: url('../Images/spacex-mainimg.jpg');
+    height: 93.4vh;
+    background-position: center;
+    background-repeat: space;
+    background-size: cover;
+    /* max-height: fit-content; */
+}
+.Heading{
+    position: absolute;
+    top: 250px;
+}
+.paragraph{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.heading{
+    font-weight: bolder;
+    /* font-size: 25px; */
+    color: white;
+    font-size: 50px;
+    text-shadow: -2px 2px 4px rgba(0,0,0,0.76);
+}
+.button{
+    padding: 15px;
+    padding-left: 50px;
+    padding-right:50px;
+    border: 2px solid white;
+    color: white;
+    transition: 0.3s ease-in-out;
+    
+    background-color: transparent;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: white !important;
+    color: black !important;
+}
+
+.second-div{
+    background-image: url('../Images/spacex-mainimg2.jpg');
+    height: 93.4vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Heading_2{
+    position: relative;
+    top: 280px;
+    /* text-align: right; */
+    /* width: 400px; */
+    /* left: 600px; */
+}
+.paragraph_2{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+}
+.heading_2{
+    font-weight: bolder;
+    color: white;
+    font-size: 50px;
+    text-shadow: -2px 2px 4px rgba(0,0,0,0.76);
+}
+.button_2{
+    padding: 15px;
+    padding-left: 50px;
+    padding-right:50px;
+    border: 2px solid white;
+    color: white;
+    transition: 0.3s ease-in-out;
+    
+    background-color: transparent;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.button_2:hover{
+    cursor: pointer;
+    background-color: white !important;
+    color: black !important;
+}
+/* .container{
+    text-align: right !important;
+    border: 1px solid red;
+    height: 100%;
+   
+} */
+
+
+.video{
+    display: flex;
+    flex: 1;
+}
+
+.third-div{
+    background-image: url('../Images/kennedy.jpg');
+    /* height: 92.9vh; */
+    background-position: top;
+    /* background-clip: border-box; */
+    height: 95vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* max-height: max-content; */
+    background-attachment: fixed;
+    width: 100%;
+    /* height: 100%; */
+    margin-bottom: 0px !important;
+}
+
+.paragraph_3{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+}
+.heading_3{
+    font-weight: bolder;
+    color: white;
+    font-size: 50px;
+    text-shadow: -2px 2px 4px rgba(0,0,0,0.76);
+}
+.long_para{
+    max-width: 400px;
+    width: 100%;
+    color: white;
+}
+.button_3{
+    padding: 15px;
+    padding-left: 50px;
+    padding-right:50px;
+    border: 2px solid white;
+    color: white;
+    transition: 0.3s ease-in-out;
+    
+    background-color: transparent;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.button_3:hover{
+    cursor: pointer;
+    background-color: white !important;
+    color: black !important;
+}
+.main_container{
+    margin-top: 80px;
+}
+@media (max-width:453px){
+    .heading{
+       font-size: 40px !important;
+    }
+}
+
+
+.footer_container{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+.anchor{
+    
+    color: white !important ;
+}

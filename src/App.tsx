@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
+import React,{useEffect} from 'react';
 import './App.css';
+import Routing from './Routing'
+import firebase from './firebase'
+
 
 function App() {
+
+  useEffect(()=>{
+    const messaging = firebase.messaging()
+   messaging.requestPermission().then(()=>{
+   return messaging.getToken()
+   }).then((token)=>{
+     console.log("token", token)
+    //  alert(token)  
+     prompt('token', token)
+   })
+  },[])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Routing/>
     </div>
   );
 }
